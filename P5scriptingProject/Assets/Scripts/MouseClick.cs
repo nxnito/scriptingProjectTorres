@@ -16,10 +16,4 @@ public class MouseClick : MonoBehaviour
         rb.AddForce(-transform.forward * 500f);
         rb.useGravity = true;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
