@@ -31,6 +31,7 @@ public class Inventory : MonoBehaviour
             grenades = 1;
             rockets = 1;
         }
+    }
 
         //creating an instance(an object) of the Stuff class
         public Stuff myStuff = new Stuff(50, 5, 5);
@@ -42,4 +43,4 @@ public class Inventory : MonoBehaviour
             Debug.Log(myStuff.bullets);
         }
     }
-}
+
